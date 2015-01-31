@@ -16,6 +16,8 @@ namespace NancyApp
             // `View["bin/Views/static"];`では、AspNetHostingは動作するが、SelfHostingが動作しない
             //Get["/static"] = _ => View["bin/Views/static"];
             Get["/static"] = _ => View["static"];
+
+            Get["/ssve"] = _ => View["ssve"];
         }
     }
 }
