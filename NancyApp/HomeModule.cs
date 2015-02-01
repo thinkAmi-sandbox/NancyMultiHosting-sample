@@ -18,6 +18,8 @@ namespace NancyApp
             Get["/static"] = _ => View["static"];
 
             Get["/ssve"] = _ => View["ssve"];
+
+            Get["/razor"] = _ => View["razor"];
         }
     }
 }
